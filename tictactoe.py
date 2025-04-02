@@ -67,7 +67,6 @@ def partita(giocatori: dict) -> None:
 
 
 def main() -> None:
-    # Inizializza i giocatori
     nome_1 = input("Nome del primo giocatore (X): ")
     nome_2 = input("Nome del secondo giocatore (O): ")
 
