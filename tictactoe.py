@@ -32,7 +32,6 @@ def verifica_vittoria(tabellone: list[list[str]]) -> bool:
         if tabellone[0][i] == tabellone[1][i] == tabellone[2][i] != " ":
             return True
 
-    # Diagonali
     if tabellone[0][0] == tabellone[1][1] == tabellone[2][2] != " ":
         return True
     if tabellone[0][2] == tabellone[1][1] == tabellone[2][0] != " ":
